@@ -1,11 +1,12 @@
+import Article1 from "@/components/articles/article-1.vue";
+import ArticlesLayout from "@/layouts/ArticlesLayout.vue";
+import HomeLayout from "@/layouts/HomeLayout.vue";
+import ServicesLayout from "@/layouts/ServicesLayout.vue";
 import {
   type RouteRecordRaw,
   createRouter,
   createWebHistory,
 } from "vue-router";
-import ServicesLayout from "@/layouts/ServicesLayout.vue";
-import HomeLayout from "@/layouts/HomeLayout.vue";
-import ArticleLayout from "@/layouts/ArticleLayout.vue";
 
 const routes: RouteRecordRaw[] = [
   {
@@ -18,13 +19,13 @@ const routes: RouteRecordRaw[] = [
   },
   {
     path: "/blog",
-    children: [
-      {
-        path: "/articulo-1",
-        component: ArticleLayout,
-      },
-    ],
+    component: ArticlesLayout,
   },
+  {
+    path: "/blog/5-errores-comunes-dolores-cervicales-como-evitar",
+    component: Article1,
+  },
+
   {
     path: "/:catchAll(.*)",
     redirect: "/",

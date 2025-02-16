@@ -2,7 +2,7 @@ import { createApp } from "vue";
 import { createI18n } from "vue-i18n";
 import App from "./App.vue";
 
-import router from './router/index';
+import router from "./router/index";
 
 import "./assets/css/main.css";
 
@@ -31,32 +31,29 @@ app.mount("#app");
 
 setTitleAndDescription(getStoredLanguage());
 
-document.getElementById("language-selector")?.addEventListener("change", (event) => {
-  const newLanguage = (event.target as HTMLSelectElement).value;
-  localStorage.setItem("language", newLanguage);
-  setTitleAndDescription(newLanguage);
-});
+document
+  .getElementById("language-selector")
+  ?.addEventListener("change", (event) => {
+    const newLanguage = (event.target as HTMLSelectElement).value;
+    localStorage.setItem("language", newLanguage);
+    setTitleAndDescription(newLanguage);
+  });
 
 function setTitleAndDescription(lang: string) {
-  
-  const jsonPath = import.meta.env.MODE === 'development' ? `src/locales/${lang}.json` : `locales/${lang}.json`;
+  const jsonPath =
+    import.meta.env.MODE === "development"
+      ? `src/locales/${lang}.json`
+      : `locales/${lang}.json`;
 
   fetch(jsonPath)
-    .then(response => response.json())
-    .then(data => {
-      
-      var pageTitle = document.getElementById('title');
+    .then((response) => response.json())
+    .then((data) => {
+      var pageTitle = document.getElementById("title");
       var metaDescription = document.querySelector('meta[name="description"]');
 
       pageTitle!.innerHTML = data.titol;
-      metaDescription?.setAttribute('content', data.metaDescription);
+      metaDescription?.setAttribute("content", data.metaDescription);
 
       document.documentElement.lang = lang;
     });
 }
-
-
-
-
-
-
