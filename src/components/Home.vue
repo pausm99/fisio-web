@@ -494,7 +494,10 @@
           class="swiper"
           data-aos="fade-up"
           data-aos-delay="100"
-          
+          :autoplay="{
+            delay: 3500,
+            disableOnInteraction: false,
+          }"
           space-between="30"
           :loop="true"
           :slides-per-view="1"
