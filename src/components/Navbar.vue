@@ -78,9 +78,39 @@
     </div>
   </header>
   <!-- End Header -->
-  <!-- End Header -->
 </template>
 
 <script setup lang="ts">
+import { onMounted } from "vue";
 import { RouterLink } from "vue-router";
+
+onMounted(() => {
+  const mobileNavShow = document.querySelector(
+    ".mobile-nav-show"
+  ) as HTMLElement;
+  const mobileNavHide = document.querySelector(
+    ".mobile-nav-hide"
+  ) as HTMLElement;
+
+  function mobileNavToggle() {
+    document.body.classList.toggle("mobile-nav-active");
+    mobileNavShow?.classList.toggle("d-none");
+    mobileNavHide?.classList.toggle("d-none");
+  }
+
+  document.querySelectorAll(".mobile-nav-toggle").forEach((el) => {
+    el.addEventListener("click", (event) => {
+      event.preventDefault();
+      mobileNavToggle();
+    });
+  });
+
+  document.querySelectorAll("#navbar a").forEach((navbarlink) => {
+    navbarlink.addEventListener("click", () => {
+      if (document.body.classList.contains("mobile-nav-active")) {
+        mobileNavToggle();
+      }
+    });
+  });
+});
 </script>
