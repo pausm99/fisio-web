@@ -103,6 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelectorAll(".mobile-nav-toggle").forEach((el) => {
     el.addEventListener("click", function (event) {
+      alert("holis");
       event.preventDefault();
       mobileNavToogle();
     });
