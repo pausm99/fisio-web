@@ -2,13 +2,9 @@ import Article1 from "@/components/articles/article-1.vue";
 import ArticlesLayout from "@/layouts/ArticlesLayout.vue";
 import HomeLayout from "@/layouts/HomeLayout.vue";
 import ServicesLayout from "@/layouts/ServicesLayout.vue";
-import {
-  type RouteRecordRaw,
-  createRouter,
-  createWebHistory,
-} from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 
-const routes: RouteRecordRaw[] = [
+export const routes = [
   {
     path: "/",
     component: HomeLayout,
@@ -19,25 +15,19 @@ const routes: RouteRecordRaw[] = [
   },
   {
     path: "/blog",
-    component: null,
-    children: [
-      {
-        path: "",
-        component: ArticlesLayout,
-      },
-      {
-        path: "5-errores-comunes-dolores-cervicales-como-evitar",
-        component: Article1,
-      },
-    ],
+    component: ArticlesLayout,
   },
-
+  {
+    path: "/blog/5-errores-comunes-dolores-cervicales-como-evitar",
+    component: Article1,
+  },
   {
     path: "/:catchAll(.*)",
     redirect: "/",
   },
 ];
 
+// Si aún quieres crear el router, lo puedes hacer
 const router = createRouter({
   history: createWebHistory(),
   routes,
