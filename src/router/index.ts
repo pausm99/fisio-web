@@ -19,11 +19,17 @@ const routes: RouteRecordRaw[] = [
   },
   {
     path: "/blog",
-    component: ArticlesLayout,
-  },
-  {
-    path: "/blog/5-errores-comunes-dolores-cervicales-como-evitar",
-    component: Article1,
+    component: null,
+    children: [
+      {
+        path: "",
+        component: ArticlesLayout,
+      },
+      {
+        path: "5-errores-comunes-dolores-cervicales-como-evitar",
+        component: Article1,
+      },
+    ],
   },
 
   {
