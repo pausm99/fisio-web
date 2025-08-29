@@ -36,7 +36,7 @@
 
 <div class="container mt-4">
   <div class="copyright">
-    &copy; Copyright <strong><span>Impact</span></strong>. All Rights Reserved
+    &copy; Copyright 2025. All Rights Reserved
   </div>
   <div class="credits">
     <!-- All the links in the footer should remain intact. -->

@@ -25,7 +25,7 @@
         width: fit-content;
         position: absolute;
         right: 1rem;
-        bottom: 1rem;   
+        bottom: 1rem;
     }
 </style>
 
@@ -47,7 +47,7 @@
                         </div>
                         <h3>{{ $t("fisioterapia") }}</h3>
                         <p>{{ $t("serveis-1") }}</p>
-                        <RouterLink to="/" class="know-more stretched-link">{{ $t("saber-mes") }} <i class="bi bi-arrow-right"></i></RouterLink>
+                        <!-- <RouterLink to="/" class="know-more stretched-link">{{ $t("saber-mes") }} <i class="bi bi-arrow-right"></i></RouterLink> -->
                     </div>
                     </div><!-- End Service Item -->
 
@@ -58,7 +58,7 @@
                         </div>
                         <h3>{{ $t("osteopatia") }}</h3>
                         <p>{{ $t("serveis-2") }}</p>
-                        <RouterLink to="/" class="know-more stretched-link">{{ $t("saber-mes") }} <i class="bi bi-arrow-right"></i></RouterLink>
+                        <!-- <RouterLink to="/" class="know-more stretched-link">{{ $t("saber-mes") }} <i class="bi bi-arrow-right"></i></RouterLink> -->
                     </div>
                     </div><!-- End Service Item -->
 
@@ -69,7 +69,7 @@
                         </div>
                         <h3>{{ $t("readaptacio") }}</h3>
                         <p>{{ $t("serveis-3") }}</p>
-                        <RouterLink to="/" class="know-more stretched-link">{{ $t("saber-mes") }} <i class="bi bi-arrow-right"></i></RouterLink>
+                        <!-- <RouterLink to="/" class="know-more stretched-link">{{ $t("saber-mes") }} <i class="bi bi-arrow-right"></i></RouterLink> -->
                     </div>
                     </div><!-- End Service Item -->
 
@@ -80,7 +80,7 @@
                         </div>
                         <h3>{{ $t("ecografia") }}</h3>
                         <p>{{ $t("serveis-4") }}</p>
-                        <RouterLink to="/" class="know-more stretched-link">{{ $t("saber-mes") }} <i class="bi bi-arrow-right"></i></RouterLink>
+                        <!-- <RouterLink to="/" class="know-more stretched-link">{{ $t("saber-mes") }} <i class="bi bi-arrow-right"></i></RouterLink> -->
                     </div>
                     </div><!-- End Service Item -->
 
@@ -91,7 +91,7 @@
                         </div>
                         <h3>{{ $t("diatermia") }}</h3>
                         <p>{{ $t("serveis-5") }}</p>
-                        <RouterLink to="/" class="know-more stretched-link">{{ $t("saber-mes") }} <i class="bi bi-arrow-right"></i></RouterLink>
+                        <!-- <RouterLink to="/" class="know-more stretched-link">{{ $t("saber-mes") }} <i class="bi bi-arrow-right"></i></RouterLink> -->
                     </div>
                     </div><!-- End Service Item -->
 
@@ -102,7 +102,7 @@
                         </div>
                         <h3>{{ $t("entrenament") }}</h3>
                         <p>{{ $t("serveis-6") }}</p>
-                        <RouterLink to="/" class="know-more stretched-link">{{ $t("saber-mes") }} <i class="bi bi-arrow-right"></i></RouterLink>
+                        <!-- <RouterLink to="/" class="know-more stretched-link">{{ $t("saber-mes") }} <i class="bi bi-arrow-right"></i></RouterLink> -->
                     </div>
                     </div><!-- End Service Item -->
                 </div>

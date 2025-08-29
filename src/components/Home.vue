@@ -303,7 +303,7 @@
                       <tr>
                         <td>{{ $t("fisioterapia") }}</td>
                         <td>1 {{ $t("sessio") }}</td>
-                        <td>45€</td>
+                        <td>50€</td>
                         <td>50min</td>
                       </tr>
                       <tr>
@@ -313,7 +313,7 @@
                             >{{ $t("bono") }} 4 {{ $t("sessions") }}</strong
                           >
                         </td>
-                        <td>170€</td>
+                        <td>180€</td>
                         <td>50min</td>
                       </tr>
                       <tr>
@@ -323,7 +323,7 @@
                             >{{ $t("bono") }} 10 {{ $t("sessions") }}</strong
                           >
                         </td>
-                        <td>400€</td>
+                        <td>450€</td>
                         <td>50min</td>
                       </tr>
                     </tbody>
@@ -345,7 +345,7 @@
                       <tr>
                         <td>{{ $t("osteopatia") }}</td>
                         <td>1 {{ $t("sessio") }}</td>
-                        <td>60€</td>
+                        <td>65€</td>
                         <td>50min</td>
                       </tr>
                       <tr>
@@ -355,7 +355,7 @@
                             >{{ $t("bono") }} 4 {{ $t("sessions") }}</strong
                           >
                         </td>
-                        <td>220€</td>
+                        <td>240€</td>
                         <td>50min</td>
                       </tr>
                     </tbody>
@@ -381,7 +381,7 @@
                           {{ $t("fisioterapia") }} + {{ $t("ecografia") }}
                         </td>
                         <td>1 {{ $t("sessio") }}</td>
-                        <td>60€</td>
+                        <td>65€</td>
                         <td>50min</td>
                       </tr>
                     </tbody>
@@ -405,7 +405,7 @@
                       <tr>
                         <td>{{ $t("entrenament-personal") }}</td>
                         <td>1 {{ $t("sessio") }}</td>
-                        <td>40€</td>
+                        <td>45€</td>
                         <td>50min</td>
                       </tr>
                       <tr>
@@ -415,7 +415,7 @@
                             >{{ $t("bono") }} 4 {{ $t("sessions") }}</strong
                           >
                         </td>
-                        <td>145€</td>
+                        <td>160€</td>
                         <td>50min</td>
                       </tr>
                       <tr>
@@ -425,7 +425,7 @@
                             >{{ $t("bono") }} 10 {{ $t("sessions") }}</strong
                           >
                         </td>
-                        <td>340€</td>
+                        <td>380€</td>
                         <td>50min</td>
                       </tr>
                     </tbody>
@@ -469,7 +469,7 @@
                       <tr>
                         <td>{{ $t("ecografia") }}</td>
                         <td>1 {{ $t("sessio") }}</td>
-                        <td>30€</td>
+                        <td>35€</td>
                         <td>25min</td>
                       </tr>
                     </tbody>
