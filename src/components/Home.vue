@@ -790,7 +790,7 @@
                 <i class="bi bi-phone flex-shrink-0"></i>
                 <div>
                   <h4>{{ $t("telefon") }}</h4>
-                  <a style="color: #fff" href="tel:+34638429316">638429316</a>
+                  <a style="color: #fff" href="tel:+34619629025">619629025</a>
                 </div>
               </div>
               <!-- End Info Item -->

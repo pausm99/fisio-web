@@ -11,7 +11,7 @@
           ><a href="mailto:annasm96@gmail.com">annasm96@gmail.com</a></i
         >
         <i class="bi bi-phone d-flex align-items-center ms-4"
-          ><a href="tel:+34638429316">638429316</a></i
+          ><a href="tel:+34619629025">619629025</a></i
         >
       </div>
       <div
