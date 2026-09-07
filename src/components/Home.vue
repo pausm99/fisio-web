@@ -303,7 +303,7 @@
                       <tr>
                         <td>{{ $t("fisioterapia") }}</td>
                         <td>1 {{ $t("sessio") }}</td>
-                        <td>50€</td>
+                        <td>55€</td>
                         <td>50min</td>
                       </tr>
                       <tr>
@@ -313,17 +313,7 @@
                             >{{ $t("bono") }} 4 {{ $t("sessions") }}</strong
                           >
                         </td>
-                        <td>180€</td>
-                        <td>50min</td>
-                      </tr>
-                      <tr>
-                        <td>{{ $t("fisioterapia") }}</td>
-                        <td>
-                          <strong
-                            >{{ $t("bono") }} 10 {{ $t("sessions") }}</strong
-                          >
-                        </td>
-                        <td>450€</td>
+                        <td>200€</td>
                         <td>50min</td>
                       </tr>
                     </tbody>
